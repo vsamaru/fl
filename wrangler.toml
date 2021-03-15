@@ -1,0 +1,9 @@
+name = "fl"
+type = "webpack"
+account_id = "1c5f0bb50c92188dd028fa501cb54b88"
+workers_dev = true
+webpack_config = "node_modules/flareact/webpack"
+
+[site]
+bucket = "out"
+entry-point = "./"
