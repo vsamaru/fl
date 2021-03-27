@@ -1,14 +1,14 @@
 {
   "name": "with-cms-wordpress",
   "version": "1.0.0",
-  "author": "Josh Larson <jplhomer@gmail.com>",
-  "license": "MIT",
+
   "main": "index.js",
   "private": true,
   "scripts": {
       "g": "git add . && git commit -m \"Initial commit\" && git push origin HEAD -f",
     "dev": "flareact dev",
-    "deploy": "flareact publish"
+    "deploy": "flareact publish",
+    "build": "flareact build"
   },
   "dependencies": {
     "flareact": "^1.1.0",
